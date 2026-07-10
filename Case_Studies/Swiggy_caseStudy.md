@@ -587,10 +587,6 @@ quadrantChart
 
 ## 22. Feature Proposal: AI Meal Planner
 
-<div align="center">
-<img src="./assets/ai-meal-planner-mockup.svg" alt="AI Meal Planner concept mockup" width="70%"/>
-</div>
-
 ### Problem
 
 Customers face **decision fatigue**, not restaurant scarcity. The current homepage optimizes for restaurant discovery ("where should I order from?") when the actual unit of decision most users care about is the meal itself ("what should I eat, given my goals, budget, and the weather right now?").
