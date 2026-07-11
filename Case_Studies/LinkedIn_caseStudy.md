@@ -54,7 +54,7 @@
 
 ---
 
-## CEO One-Page Brief
+## CEO One-Page Brief 📝
 
 > **Read this if you have 90 seconds.** Everything below is expanded, sourced, and defended in the full document.
 

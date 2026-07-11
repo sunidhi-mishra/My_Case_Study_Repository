@@ -89,7 +89,7 @@ The global short-term rental market generated an estimated **$183 billion in 202
 
 ---
 
-## 5. Problem Statement
+## 5. Problem Statement 💭
 
 Airbnb's most fundamental product challenge is trust. And trust at scale is not maintained by writing better community guidelines, it's maintained through verifiable, product-embedded signals, but the current signal set (star ratings, reviews, Superhost badges) has known gaps. Guests have no reliable way to verify listing quality before booking beyond self-reported photos and unverified reviews, and hosts face a platform that structurally favors guests in disputes even when evidence is unclear.
 

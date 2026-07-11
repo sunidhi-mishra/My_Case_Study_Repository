@@ -45,7 +45,7 @@
 
 **Core value proposition:** *Certainty and speed.* Traditional e-commerce optimizes for selection and price; Blinkit optimizes for the near-instant closing of a felt need - you know almost exactly what you'll get and almost exactly when, every time.
 
-### Key PM Insights
+### Key PM Insights 📌
 
 | # | Insight | Why it matters |
 |---|---|---|

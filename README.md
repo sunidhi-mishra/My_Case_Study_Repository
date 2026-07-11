@@ -38,11 +38,12 @@ My_Case_Study_Repository/
 3. Review the metrics, prioritization, and roadmap sections to understand the product thinking.
 4. Use the documents as reference material for PM interview prep or your own case-study practice.
 
-## Notes
+## Notes 📝
 
 - The case studies are written as learning artifacts, so some assumptions are explicitly labeled where public data is unavailable.
 - The content is intended to demonstrate product thinking and structured analysis rather than serve as official company documentation.
 
 ## Purpose 🎯
 
-My goal with this repository is to keep building a strong portfolio of product management work that shows how I think about users, businesses, and execution tradeoffs.
+My goal with this repository is to keep building a strong portfolio of product management work that shows how I think about users, businesses, and execution tradeoffs. 
+

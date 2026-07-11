@@ -78,7 +78,7 @@ The product sits inside a wider ecosystem: **Prime** (subscription membership bu
 
 ---
 
-## 3. Problem Statement
+## 3. Problem Statement 💭
 
 Amazon's core product tension is that its greatest strength (near-infinite selection, enabled by the 3P marketplace) directly creates its most persistent weakness (decision fatigue and search/comparison difficulty). A customer searching for a common product category, say, phone cases, often faces dozens of near-duplicate listings with minimal differentiating information, unreliable review signals, and no easy way to understand genuine trade-offs between options.
 
