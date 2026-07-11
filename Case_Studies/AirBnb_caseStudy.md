@@ -1,4 +1,4 @@
-# 🏠 Airbnb Product Management Case Study
+# 🏠 Airbnb Product Management Case Study ✈️
 
 ---
 
@@ -6,7 +6,7 @@
 
 ---
 
-## Table of Contents
+## Table of Contents 📑
 
 1. [Why This Product](#1-why-this-product)
 2. [Executive Summary](#2-executive-summary)
@@ -35,7 +35,7 @@
 
 ---
 
-## 1. Why This Product
+## 1. Why This Product 🌍
 
 Airbnb is a compelling subject for a product teardown for three reasons.
 
@@ -49,7 +49,7 @@ This case study is not an endorsement of Airbnb. It is a structured attempt to u
 
 ---
 
-## 2. Executive Summary
+## 2. Executive Summary 🚀
 
 Airbnb operates the world's largest short-term rental marketplace, connecting 5 million+ hosts with guests across 220+ countries. In FY2024, the platform generated **$11.1B in revenue** and **$81.8B in Gross Booking Value**, growing 12% year-over-year while remaining GAAP-profitable with a **~40% free cash flow margin**, a rare combination of scale and capital efficiency in consumer marketplaces.
 
@@ -59,7 +59,7 @@ This document performs a targeted teardown, company, market, stakeholders, users
 
 ---
 
-## 3. Company Overview
+## 3. Company Overview 🏢
 
 | Attribute | Detail |
 |-----------|--------|
@@ -99,7 +99,7 @@ Both problems compound a third: regulatory risk. Cities that view short-term ren
 
 ---
 
-## 6. Stakeholder Analysis
+## 6. Stakeholder Analysis 👥
 
 ### Stakeholder Power-Interest Matrix
 
@@ -136,7 +136,7 @@ quadrantChart
 
 ---
 
-## 7. Personas
+## 7. Personas 🧳
 
 > **ASSUMPTION - Reasonable Product Assumption:** The following personas are illustrative composites built from publicly reported Airbnb user-demographic data (Section 4) and general travel-industry research, not from primary interviews with actual Airbnb users. They should be validated with real user interviews before being used to justify a production roadmap decision.
 
@@ -328,7 +328,7 @@ Airbnb's **pre-booking flow** (search, browse, compare, book) is genuinely best-
 
 ---
 
-## 16. Product Opportunities
+## 16. Product Opportunities 💡
 
 Three structural gaps, each traced to a specific finding earlier in this document, define the opportunity space: **(1) Post-booking product desert** (Customer Journey, Section 9), the platform under-invests in everything after check-in. **(2) Unverified quality floor** (SWOT, Section 13), no embedded, verifiable quality signal beyond self-reported photos and reviews. **(3) Absent retention mechanism** (Competitor Analysis, Section 14), unlike hotel chains, Airbnb has no structured loyalty program despite a 44% market-leading position that could support one.
 
@@ -381,7 +381,7 @@ gantt
 
 ---
 
-## 19. Risks and Mitigation
+## 19. Risks and Mitigation ⚠️
 
 | Risk | Probability | Impact | Mitigation Strategy |
 |------|------------|--------|---------------------|
@@ -407,7 +407,7 @@ The "Regulatory supply reduction" row above is the single highest-rated risk on 
 
 ---
 
-## 20. Product Recommendations
+## 20. Product Recommendations ✅
 
 ### Recommendation 1: Build the "AI Trip Companion": Own the Post-Booking Experience
 
@@ -470,7 +470,7 @@ The "Regulatory supply reduction" row above is the single highest-rated risk on 
 
 ---
 
-## 21. Product Management Lessons
+## 21. Product Management Lessons 🎓
 
 ### 1. Trust is a product feature, not a values statement
 Airbnb's most fundamental product challenge is trust. Trust at scale is not maintained by writing better community guidelines, it's maintained through verifiable, product-embedded signals: reviews, AirCover, Superhost, identity verification, Instant Book. For any product where users share sensitive personal data, this suggests trust architecture must be designed from day zero, not retrofitted.

@@ -1,8 +1,8 @@
 <div align="center">
 
-# Swiggy Product Case Study
+# Swiggy Product Case Study 🛵
 
-### Marketplace, Food Delivery, and Quick Commerce
+### Marketplace, Food Delivery, and Quick Commerce 📦
 
 <br/>
 
@@ -57,7 +57,7 @@
 
 ---
 
-## 1. Executive Summary
+## 1. Executive Summary 🚀
 
 Swiggy is India's second-largest food delivery platform and one of only three companies (alongside Zomato/Eternal and Blinkit's parent) with real scale in Indian quick commerce. Founded in Bengaluru in August 2014, it went public on the NSE/BSE in November 2024 at an $11.3B valuation, and today operates five reported business segments - Food Delivery, Quick Commerce (Instamart), Out-of-Home Consumption (Dineout, events), Supply Chain & Distribution, and Platform Innovations.
 
@@ -71,7 +71,7 @@ Swiggy is India's second-largest food delivery platform and one of only three co
 
 ---
 
-## 2. About Swiggy
+## 2. About Swiggy 🏢
 
 ### Company Overview
 
@@ -107,7 +107,7 @@ timeline
     2026 : Instamart crosses 1,143 dark stores across 129 cities
 ```
 
-### Core Products
+### Core Products 🧩
 
 | Product | What it does |
 |---|---|
@@ -118,13 +118,13 @@ timeline
 | **Swiggy One** | Unified paid membership: free deliveries and priority support across Food, Instamart, and Dineout |
 | **Genie** *(discontinued May 2025)* | Peer-to-peer package pickup/drop service |
 
-### Business Model - At a Glance
+### Business Model - At a Glance 💼
 
 Swiggy operates a **multi-sided, multi-vertical marketplace**: it earns commissions from restaurant and Instamart brand partners, delivery fees from consumers, advertising revenue from partners seeking visibility, and subscription revenue from Swiggy One - all routed through one shared logistics and technology layer.
 
 ---
 
-## 3. Product Ecosystem
+## 3. Product Ecosystem 🌐
 
 Swiggy is not a single two-sided marketplace - it is closer to a **five-party coordination problem** solved in real time, thousands of times a minute.
 
@@ -182,7 +182,7 @@ graph TD
 
 ---
 
-## 5. User Personas
+## 5. User Personas 👥
 
 <img src="https://img.shields.io/badge/Personas-5-2E1A47?style=flat-square" alt="5 personas"/>
 
@@ -348,7 +348,7 @@ journey
 
 ---
 
-## 10. Market Analysis
+## 10. Market Analysis 📊
 
 ### Market Sizing *(ASSUMPTION-adjacent - ranges reflect variance across public trackers, see Section 33)*
 
@@ -542,7 +542,7 @@ quadrantChart
 
 ---
 
-## 20. Product Opportunities
+## 20. Product Opportunities 💡
 
 | # | Opportunity | Problem it Solves | Section Reference |
 |---|---|---|---|
@@ -585,7 +585,7 @@ quadrantChart
 
 ---
 
-## 22. Feature Proposal: AI Meal Planner
+## 22. Feature Proposal: AI Meal Planner 🤖
 
 ### Problem
 
@@ -742,7 +742,7 @@ gantt
 
 ---
 
-## 28. Risks
+## 28. Risks ⚠️
 
 | Category | Risk |
 |---|---|
@@ -770,7 +770,7 @@ By 2030, Swiggy's product surface plausibly evolves along three lines already vi
 
 ---
 
-## 30. Final Recommendations
+## 30. Final Recommendations ✅
 
 1. **Ship reliability fixes before growth features.** Proactive ETA-delay alerts and transparent fee breakdowns (§21, P0) should ship ahead of the AI Meal Planner - they are cheaper, faster, and directly defend the trust that the flywheel (§13) depends on.
 2. **Treat the AI Meal Planner as a strategic bet, not a quick win, and fund it accordingly.** Its RICE score is modest by design; its long-term value lies in creating a new, less commoditized ad-inventory format and a genuine AI differentiator versus Blinkit and Zepto.
@@ -780,7 +780,7 @@ By 2030, Swiggy's product surface plausibly evolves along three lines already vi
 
 ---
 
-## 31. Key Takeaways
+## 31. Key Takeaways 🔑
 
 - Swiggy is best understood as **two businesses in one P&L**: a mature, profitable Food Delivery engine and an immature, capital-intensive Instamart bet - nearly every strategic tension in the company traces back to this split.
 - The platform's biggest trust risk is **ETA reliability, not absolute speed** - a distinction that should anchor both the North Star metric and the top roadmap priorities.

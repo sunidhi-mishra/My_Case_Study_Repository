@@ -1,4 +1,4 @@
-# 🛒 Amazon: Product Management Case Study
+# 🛒 Amazon: Product Management Case Study 📦
 
 > A deep, evidence-based teardown of Amazon's consumer marketplace: strategy, metrics, AI systems, and a full PRD for a proposed **AI Shopping Concierge** feature.
 
@@ -24,7 +24,7 @@
 
 ---
 
-## Table of Contents
+## Table of Contents 📑
 
 1. [Executive Summary](#1-executive-summary)
 2. [Company Overview](#2-company-overview)
@@ -54,7 +54,7 @@
 
 ---
 
-## 1. Executive Summary
+## 1. Executive Summary 🚀
 
 Amazon Shopping is the world's largest consumer marketplace product, generating **$716.9B in FY2025 net sales** across a first-party retail business and a third-party marketplace that now accounts for **61-62% of paid units sold**. The product sits at the center of an ecosystem, Prime, Advertising, Alexa for Shopping, Logistics, Payments, that together make Amazon less a retailer and more a full-stack commerce operating system.
 
@@ -64,7 +64,7 @@ This document performs a targeted teardown, company, market, users, pain points,
 
 ---
 
-## 2. Company Overview
+## 2. Company Overview 🏢
 
 **Amazon Shopping** is the consumer-facing storefront (web at amazon.com and 20+ country domains, plus native iOS/Android apps) through which customers search, discover, compare, purchase, and manage returns for products sold both directly by Amazon (first-party/1P retail) and by independent third-party sellers (3P marketplace). This third-party share, 61-62% of paid units, makes Amazon Shopping fundamentally a *marketplace* product, not merely a retail storefront, a distinction that shapes almost every product decision discussed in this document, from search ranking (which must fairly rank 1P and 3P listings) to trust and safety (which must police hundreds of millions of third-party listings).
 
@@ -102,7 +102,7 @@ The industry in 2026 is shaped by four forces: **(1) AI-mediated discovery**, ge
 
 ---
 
-## 5. Competitor Analysis
+## 5. Competitor Analysis 📊
 
 | Competitor | Primary battleground vs. Amazon | Est. scale | Key differentiator |
 |---|---|---|---|
@@ -139,7 +139,7 @@ Amazon Shopping's revenue is not a single stream but a layered model: **(1) 1P r
 
 ---
 
-## 8. Personas
+## 8. Personas 👥
 
 > **ASSUMPTION - Reasonable Product Assumption:** The following personas are illustrative composites built from publicly reported shopper-behavior patterns, not primary interviews with actual Amazon customers. They should be validated with real user research before being used to justify a production roadmap decision.
 
@@ -260,7 +260,7 @@ The Concierge is prioritized as the flagship anyway for a reason RICE doesn't pr
 
 ---
 
-## 16. Feature Proposal: AI Shopping Concierge
+## 16. Feature Proposal: AI Shopping Concierge 🤖
 
 **Problem it solves:** Directly answers the Problem Statement (Section 3), decision fatigue and trust erosion at the moment of highest-consideration purchases, while extending Amazon's existing Alexa for Shopping investment rather than competing with it.
 
@@ -368,7 +368,7 @@ gantt
 
 ---
 
-## 21. Risks and Mitigation
+## 21. Risks and Mitigation ⚠️
 
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
@@ -387,7 +387,7 @@ By 2030, the AI Shopping Concierge plausibly evolves from a high-consideration-c
 
 ---
 
-## 23. PM Lessons
+## 23. PM Lessons 💡
 
 1. **Scale doesn't fix search quality, it stresses it.** More sellers and more listings without proportional investment in ranking/trust makes discovery *harder*, not easier. Selection is not automatically a virtue.
 2. **A marketplace PM serves two customers who sometimes conflict**, the shopper (wants best price/quality) and the seller (wants fair visibility), and the product's ranking and fee decisions are the arbitration mechanism between them.

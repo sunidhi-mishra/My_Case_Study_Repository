@@ -1,6 +1,6 @@
-# 🛒 Blinkit Product Teardown
+# 🛒 Blinkit Product Teardown ⚡
 
-### How Blinkit Built India's Leading Quick Commerce Experience Through Product Strategy, Logistics, Operations and Customer Obsession
+### How Blinkit Built India's Leading Quick Commerce Experience Through Product Strategy, Logistics, Operations and Customer Obsession 🚚
 
 ---
 
@@ -35,7 +35,7 @@
 
 ---
 
-## 1. Executive Summary
+## 1. Executive Summary 🚀
 
 **What it is:** Blinkit is India's leading quick-commerce (q-commerce) platform, delivering groceries, fresh produce, and household essentials to consumers in 10–20 minutes from hyperlocal "dark stores." Originally launched as **Grofers** in 2013, the company rebranded to **Blinkit** in December 2021 to reposition itself around delivery speed rather than a traditional grocery-delivery model, and was acquired by **Zomato** (now **Eternal Ltd.**) in an all-stock deal completed in August 2022 [1].
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 2. Company Background
+## 2. Company Background 🏢
 
 ### Timeline
 
@@ -170,7 +170,7 @@ The FDI-driven corporate structuring mentioned above is not a one-time complianc
 
 ---
 
-## 5. Competitive Analysis
+## 5. Competitive Analysis 📊
 
 | Dimension | **Blinkit** | **Zepto** | **Swiggy Instamart** | **BigBasket (BBNow)** | **Amazon Fresh** |
 |---|---|---|---|---|---|
@@ -194,7 +194,7 @@ The FDI-driven corporate structuring mentioned above is not a one-time complianc
 
 ---
 
-## 6. Target Users: Personas
+## 6. Target Users: Personas 👥
 
 > **ASSUMPTION / VALIDATION REQUIRED:** The following personas are illustrative composites built from publicly reported quick-commerce usage patterns and general Indian urban-consumer research, not from primary interviews with actual Blinkit users. They should be validated with real user interviews before being used to justify a real roadmap decision.
 
@@ -393,7 +393,7 @@ Evaluated against **Nielsen's 10 Usability Heuristics** (selected, most relevant
 
 ---
 
-## 12. Business Model
+## 12. Business Model 💼
 
 ### Revenue Streams
 
@@ -528,7 +528,7 @@ graph TD
 
 ---
 
-## 16. Feature Opportunity: "Blinkit ReStock"
+## 16. Feature Opportunity: "Blinkit ReStock" 🔁
 
 ### Problem Statement
 
@@ -629,7 +629,7 @@ This is a deliberate example of not letting RICE alone drive the roadmap, consis
 
 ---
 
-## 18. Product Roadmap
+## 18. Product Roadmap 🛣️
 
 | Horizon | Initiative | Rationale |
 |---|---|---|
@@ -664,7 +664,7 @@ gantt
 
 ---
 
-## 19. Future Vision: Blinkit in 2030
+## 19. Future Vision: Blinkit in 2030 🔮
 
 > **Speculative, PM-judgment scenario, not a company forecast or statement.**
 
@@ -678,7 +678,7 @@ By 2030, Blinkit's product surface plausibly evolves along three lines already v
 
 ---
 
-## 20. Key Learnings
+## 20. Key Learnings 💡
 
 - **Q-commerce is a density game, not a margin-per-order game.** Nearly every product decision in this teardown, dark-store placement, catalog curation, minimum-order-value nudges, ad-slot design, ultimately optimizes order density per dark store, because that is the actual lever behind unit economics (Section 12).
 - **Trust-compounding loops are asymmetric.** A single missed-ETA incident does outsized damage relative to the trust built by many successful deliveries, because the entire growth loop (Section 13) depends on an unbroken "it always works" belief, not an average experience.
