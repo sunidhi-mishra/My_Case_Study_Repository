@@ -419,6 +419,29 @@ The "Regulatory supply reduction" row above is the single highest-rated risk on 
 
 **Trade-off:** There is a risk of over-notification fatigue. This must be designed with strict permission controls and opt-in mechanics.
 
+### PRD: AI Trip Companion
+
+**Owning surface:** New post-booking tab in the Airbnb app, activated automatically once a reservation is confirmed. **Target release:** Phased rollout over 3 quarters (Section 18).
+
+**Goals:** Close the post-booking product gap identified in the Problem Statement (Section 5). Increase repeat booking rate by making the in-stay experience memorable enough to drive return visits. Differentiate from Booking.com and Expedia's generic trip-management notifications through host-grounded, listing-specific recommendations.
+
+**Non-Goals:** Not a replacement for host-guest messaging, the Companion supplements the host relationship, it doesn't automate it away. Not a booking engine for third-party activities at launch, recommendations link out rather than transact in-app.
+
+**User Stories and Acceptance Criteria:**
+
+| # | User Story | Acceptance Criteria |
+|---|---|---|
+| 1 | As a guest who just booked, I want a curated local guide for my specific listing's neighborhood, so I don't have to research everything myself. | Within 24 hours of booking confirmation, the Companion surfaces at least 5 host-sourced or marketplace-derived local recommendations (food, activities, transit) specific to the listing's micro-neighborhood, not the city generally. |
+| 2 | As a guest arriving at a property, I want proactive check-in guidance, so I'm not confused or anxious on arrival. | 2 hours before check-in time, the Companion sends a single consolidated notification with entry instructions, Wi-Fi details, and one "getting started" local tip, not a series of separate pings. |
+| 3 | As a guest during my stay, I want to ask questions and get relevant answers without always messaging the host, so minor issues don't require waiting for a reply. | The Companion answers common, listing-specific questions (checkout time, parking, appliance instructions) instantly from host-provided listing data; anything it can't answer routes to host messaging, not a dead end. |
+| 4 | As a host, I want control over what local knowledge the Companion shares under my name, so recommendations reflect my actual judgment. | Hosts can review, edit, and approve the local-recommendation set the Companion draws from before it's used; recommendations are never generated purely by the AI without host-sourced input as a base. |
+
+**Edge Cases:** Listing has no host-supplied local content yet (new host), Companion falls back to marketplace-derived recommendations (what nearby guests actually did) rather than a generic city guide, and prompts the host to add local tips. Guest opts out of notifications entirely, Companion remains accessible on-demand in-app but sends no proactive pushes. Host disputes a recommendation attributed to their listing, recommendation is immediately suspended pending host review, not left live during the dispute. Multi-guest bookings (group trips), recommendations and notifications go to the booking guest only, not every guest on the reservation, to avoid notification spam.
+
+**Functional Requirements:** FR1, automatic activation on booking confirmation, no manual setup required by the guest. FR2, host-editable local-recommendation source feeding the AI layer, not a fully autonomous content generator. FR3, consolidated pre-arrival notification (not multiple fragmented pushes). FR4, in-app Q&A grounded in listing-specific data (house manual, host FAQs) with fallback routing to host messaging. FR5, post-stay recap surfacing what the guest engaged with, feeding the Repeat Booking Rate metric (Section 12).
+
+**Non-Functional Requirements:** Recommendation generation latency under 3 seconds for in-app Q&A. Notification frequency capped at one proactive push per stay-day to avoid fatigue (directly mitigating the Trade-off above). Host-sourced content must be clearly attributed and never edited by the AI without host approval. Full accessibility parity via screen reader for all in-app Companion interactions.
+
 ### Recommendation 2: Introduce a "Verified Stay" Quality Tier
 
 **What it is:** A paid, opt-in verification program where Airbnb (or a trusted third-party inspector) physically confirms a listing matches its photos and description, addressing the unverified-quality gap named throughout this document.
@@ -501,8 +524,6 @@ The right sequence is to fix the fundamentals first, then expand.
 **Company history and product launches:** Airbnb newsroom (`news.airbnb.com`), official announcements on AirCover, Summer Release 2022/2025, Icons, Rooms, and AI Travel Concierge.
 
 **Regulatory precedent:** Public reporting on New York City's Local Law 18 (2023) and its impact on short-term rental supply.
-
-> **Last Updated:** June 2026
 
 ---
 
