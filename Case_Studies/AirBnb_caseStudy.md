@@ -297,9 +297,30 @@ Airbnb's 2024 GBV was $81.8B - indicating significant room for continued capture
 
 ## 10. Stakeholder Analysis
 
-![Stakeholder Map](images/stakeholder-map.png)
+### Stakeholder Power-Interest Matrix
 
-> **Image Note:** A 2x2 stakeholder power-interest matrix. High Power/High Interest: Hosts, Guests, Airbnb Product/Engineering. High Power/Low Interest: Regulators, City Governments. Low Power/High Interest: Local Communities, Superhost Advocates. Low Power/Low Interest: Media.
+```mermaid
+quadrantChart
+    title Stakeholder Power-Interest Matrix
+    x-axis Low Interest --> High Interest
+    y-axis Low Power --> High Power
+    quadrant-1 Manage Closely
+    quadrant-2 Keep Satisfied
+    quadrant-3 Monitor
+    quadrant-4 Keep Informed
+    "Hosts": [0.85, 0.9]
+    "Guests": [0.8, 0.85]
+    "Airbnb Product/Engineering": [0.75, 0.95]
+    "Regulators": [0.3, 0.85]
+    "City Governments": [0.25, 0.8]
+    "Local Communities": [0.7, 0.35]
+    "Superhost Advocates": [0.65, 0.3]
+    "Media": [0.2, 0.2]
+```
+
+**Reading the matrix:** Hosts, Guests, and Airbnb's own Product/Engineering org sit in "Manage Closely," they have both the power to affect outcomes and a direct stake in every product decision, which is why the personas and pain-point analysis in this document center on exactly these three groups. Regulators and City Governments sit in "Keep Satisfied," lower day-to-day interest in product specifics, but the power to reshape the entire business model overnight (see the Regulatory Risk Scenario in Risks & Mitigation). Local Communities and Superhost Advocates sit in "Keep Informed," high interest but limited direct power, meaning their influence works indirectly, through regulators and public sentiment, not through the product roadmap directly.
+
+### Stakeholder Taxonomy
 
 ```mermaid
 graph TD
@@ -506,10 +527,6 @@ The JTBD framework asks: _What progress is the user trying to make when they "hi
 
 ## 14. Customer Journey Map
 
-![Customer Journey](images/customer-journey.png)
-
-> **Image Note:** A horizontal swim-lane diagram showing stages from Awareness → Consideration → Booking → Pre-Arrival → During Stay → Post-Stay. Each lane should cover: Guest Actions, Touchpoints, Emotions, and Pain Points. Tool suggestion: Miro, FigJam, or Whimsical.
-
 ```mermaid
 journey
     title Guest Experience - Airbnb Booking Journey
@@ -591,10 +608,6 @@ journey
 ---
 
 ## 16. Product Ecosystem
-
-![Product Ecosystem](images/product-ecosystem.png)
-
-> **Image Note:** A concentric circle diagram. Core at center (Homes/Rooms), second ring (Experiences, Long Stays, Icons), outer ring (AI Concierge, Co-Host Network, Business Travel, Airbnb-Friendly Apartments). Arrows show how they feed each other.
 
 ```mermaid
 graph LR
@@ -750,10 +763,6 @@ Airbnb operates a **two-sided marketplace** with an **asset-light** model. It ow
 
 ## 21. Business Model Canvas
 
-![Business Model Canvas](images/business-model-canvas.png)
-
-> **Image Note:** A standard 9-block Business Model Canvas. Use Airbnb's brand colors. Tool: Miro, Canva, or draw.io.
-
 ```
 ┌─────────────────┬─────────────────┬─────────────┬─────────────────┬─────────────────┐
 │  KEY PARTNERS   │ KEY ACTIVITIES  │    VALUE    │  CUSTOMER       │ CUSTOMER        │
@@ -795,10 +804,6 @@ Airbnb operates a **two-sided marketplace** with an **asset-light** model. It ow
 ---
 
 ## 22. Product Flywheel
-
-![Product Flywheel](images/product-flywheel.png)
-
-> **Image Note:** A circular flywheel diagram showing the self-reinforcing loop. Clockwise: More Hosts → More Listings → More Choices → More Guests → More Bookings → More Host Earnings → More Hosts. A second inner loop: More Reviews → Higher Trust → More Bookings.
 
 ```mermaid
 graph LR
@@ -961,10 +966,6 @@ Airbnb uses Nights and Experiences Booked as its primary volume metric, and I ag
 ---
 
 ## 27. SWOT Analysis
-
-![SWOT Analysis](images/swot-analysis.png)
-
-> **Image Note:** A classic 2x2 SWOT grid. Green for Strengths, Blue for Opportunities, Orange for Weaknesses, Red for Threats. Clean, minimal design. Tool: Canva or Figma.
 
 ### Strengths
 
@@ -1174,10 +1175,6 @@ Based on my analysis, I identified six product opportunities ranked by potential
 ---
 
 ## 33. 12-Month Product Roadmap
-
-![Product Roadmap](images/product-roadmap.png)
-
-> **Image Note:** A Gantt-style roadmap spanning Q1 through Q4. Color-coded by team: Guest Experience (blue), Host Tools (green), Trust & Safety (red), AI/ML (purple). Tool: Notion, ProductPlan, or Linear.
 
 ```mermaid
 gantt
